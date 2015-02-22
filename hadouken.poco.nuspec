@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>hadouken.poco</id>
+    <version>$version$</version>
+    <authors>Viktor Elofsson</authors>
+    <owners>Viktor Elofsson</owners>
+    <projectUrl>https://github.com/hadouken/libtorrent</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Binary Poco (with NetSSL_OpenSSL) package built with MSVC12.</description>
+  </metadata>
+  <files>
+    <file src="win32\**\*.*" target="win32" />
+  </files>
+</package>
